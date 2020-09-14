@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 
 # start server
 EXPOSE 8010
-CMD gunicorn app.wsgi --user www-data --bind 0.0.0.0:8010 --workers 3 
+
+#removing host binded to the port  
+CMD gunicorn app.wsgi --user www-data --bind :8010 --workers 3 
