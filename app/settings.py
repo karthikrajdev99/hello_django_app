@@ -25,7 +25,8 @@ SECRET_KEY = 'chh-^6cv62v@jta+yb4@h7kfn8&@o6yu6yrhmq$*)!+i_nm&0h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# this  ip is default docker container to host communication network bridge
+ALLOWED_HOSTS = ['172.17.0.2']
 
 
 # Application definition
