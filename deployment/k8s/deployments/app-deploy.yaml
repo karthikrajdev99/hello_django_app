@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: quay.io/karthikrajdev99/hello_django_app:v1
+        image: quay.io/karthikrajdev99/hello_django_app
+        envFrom:
+        - secretRef:
+            name: wondersecret
         resources:
           limits:
             memory: "128Mi"
