@@ -1,7 +1,7 @@
 FROM python:3.7-alpine3.7
 
 # copy source and install dependencies
-RUN  apt-get update && apt-get upgrade -y && apt-get install nano
+RUN  apk update && apk upgrade -y && apk install nano
 
 WORKDIR /code
 
