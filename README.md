@@ -33,16 +33,6 @@ we use [Quay](https://quay.io/) to host the images there and the building and pu
 by utilizing git based build triggers.
 
 
-
-
-## And coming in the future
-
-Future iterations of this demo will have additional enhancements, such
-as using a Persistent Volume for PostgreSQL data and learning to use
-Kubernetes' Secrets API to handle secret passwords. And you're
-free to help out too!
-
-
 [docker-install]: https://docs.docker.com/engine/installation/
 [kubernetes-install]: http://kubernetes.io/docs/getting-started-guides/
 [django-girls-tutorial]: http://tutorial.djangogirls.org
